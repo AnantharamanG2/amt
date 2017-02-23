@@ -198,8 +198,15 @@ span.menu {
 }
 /*--//header--*/
 /*--banner--*/ 
+video #bgvid { 
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url(balls.mp4) no-repeat;
+    background-size: cover; 
+}
 .banner {
-    background: url(../images/workplace.jpg) no-repeat 0px 0px;
+    background: url(../images/bg.gif) no-repeat 0px 0px;
     background-size: cover;
     min-height: 700px;	
 }
